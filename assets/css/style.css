@@ -7,11 +7,23 @@ section {
     background-color: wheat;
 }
 
+.container {
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-left: 12px;
+    margin-right: 12px;
+}
+
 .accordion {
     border-radius: 5px;
     overflow: hidden;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     width: 800px;
+}
+
+.over-flow {
+    overflow: hidden;
 }
 
 .accordion-item {
